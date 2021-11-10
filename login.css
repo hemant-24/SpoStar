@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: white;
+    height: 70px;
+    position: fixed;
+    width: 100%;    
+    top: 0;    
+    border-bottom: 2px solid grey;
+}
+.menu{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+}
+.menu li a {
+    text-decoration: none;
+    color: grey;
+    font-family: arial;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 20px;
+    font-size: 13px;
+}
+.loginBody{
+    background-image: url(./assets/sl-page-bg.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    
+}
+.login{
+    height: 400px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    top: 170px;
+    left: 22%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgb(132, 207, 241);
+
+}
+label{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+input[type=email]{
+    margin-left: 40px;
+    padding: 10px;
+    width: 70%;
+}
+input[type=password]{
+    margin-left: 40px;
+    padding: 10px;
+    width: 70%;
+}
+input[type=submit]{
+    padding: 15px;
+    background-color: skyblue;
+    width: 70%;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
